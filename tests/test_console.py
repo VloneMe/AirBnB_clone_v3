@@ -3,11 +3,12 @@
 Contains the class TestConsoleDocs
 """
 
-import console
+# import console
 import inspect
 import pep8
 import unittest
-HBNBCommand = console.HBNBCommand
+from console import HBNBCommand
+# HBNBCommand = console.HBNBCommand
 
 
 class TestConsoleDocs(unittest.TestCase):
